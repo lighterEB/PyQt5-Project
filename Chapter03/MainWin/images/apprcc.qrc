@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>conections.ico</file>
+    <file>control panel.ico</file>
+    <file>documents.ico</file>
+    <file>music.ico</file>
+    <file>python.jpg</file>
+  </qresource>
+</RCC>

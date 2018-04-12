@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
-<!-- eric project file for project SignalSlog -->
-<!-- Saved: 2018-04-12, 14:06:54 -->
+<!-- eric project file for project PyQtday4 -->
+<!-- Saved: 2018-04-12, 15:40:44 -->
 <!-- Copyright (C) 2018 ,  -->
 <Project version="5.1">
   <Language>en_US</Language>
-  <Hash>189876ef4ab31e450221a3e74b164d45046e69ba</Hash>
+  <Hash>11d92f67b0a95ece59ee651aabf99bf1beb137dd</Hash>
   <ProgLanguage mixed="0">Python3</ProgLanguage>
   <ProjectType>PyQt5</ProjectType>
   <Version>0.1</Version>
@@ -13,29 +13,14 @@
   <Email></Email>
   <Eol index="0"/>
   <Sources>
-    <Source>CallMainWinSignalSlog01.py</Source>
-    <Source>MainWin/CallMainWin01.py</Source>
-    <Source>MainWin/CallMainWin02.py</Source>
-    <Source>MainWin/CallMainWin03.py</Source>
-    <Source>MainWin/ChildrenForm2.py</Source>
-    <Source>MainWin/MainForm.py</Source>
-    <Source>MainWin/MainForm2.py</Source>
-    <Source>MainWin/MainWin02.py</Source>
-    <Source>MainWin/images/apprcc_rc.py</Source>
-    <Source>MainWindowSignalSlog01.py</Source>
-    <Source>MainWindowSignalSlog02.py</Source>
-    <Source>MainWindowSignalSlog03.py</Source>
-    <Source>Ui_MainWindowSignalSlog03.py</Source>
+    <Source>Ui_closeMainWin.py</Source>
     <Source>__init__.py</Source>
+    <Source>qt04_closeMainWin.py</Source>
+    <Source>qt402_QMainWin.py</Source>
+    <Source>qt405_QMainWin.py</Source>
   </Sources>
   <Forms>
-    <Form>MainWin/ChildrenForm2.ui</Form>
-    <Form>MainWin/MainForm.ui</Form>
-    <Form>MainWin/MainForm2.ui</Form>
-    <Form>MainWin/MainWin02.ui</Form>
-    <Form>MainWindowSignalSlog.ui</Form>
-    <Form>MainWindowSignalSlog02.ui</Form>
-    <Form>MainWindowSignalSlog03.ui</Form>
+    <Form>closeMainWin.ui</Form>
   </Forms>
   <Vcs>
     <VcsType>None</VcsType>

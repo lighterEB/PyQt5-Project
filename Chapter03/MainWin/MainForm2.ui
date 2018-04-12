@@ -6,14 +6,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>377</width>
+    <height>320</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>371</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="MaingridLayout"/>
+   </widget>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
    <property name="windowTitle">
@@ -32,7 +44,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>377</width>
      <height>23</height>
     </rect>
    </property>
@@ -42,6 +54,7 @@
     </property>
     <addaction name="fileOpenAction"/>
     <addaction name="fileNewAction"/>
+    <addaction name="fileSaveAction"/>
     <addaction name="fileCloseAction"/>
    </widget>
    <widget class="QMenu" name="menu_E">
@@ -100,6 +113,17 @@
    </property>
    <property name="toolTip">
     <string>添加窗体</string>
+   </property>
+  </action>
+  <action name="fileSaveAction">
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="toolTip">
+    <string>保存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
    </property>
   </action>
  </widget>

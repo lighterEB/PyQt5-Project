@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\PyQt5Project\Chapter03\MainWin\MainForm.ui'
+# Form implementation generated from reading ui file 'D:\PyQt5Project\Chapter03\MainWin\MainForm2.ui'
 #
 # Created by: PyQt5 UI code generator 5.10.1
 #
@@ -14,6 +14,12 @@ class Ui_MainWindow(object):
         MainWindow.resize(377, 320)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(9, 9, 371, 231))
+        self.gridLayoutWidget.setObjectName("gridLayoutWidget")
+        self.MaingridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
+        self.MaingridLayout.setContentsMargins(0, 0, 0, 0)
+        self.MaingridLayout.setObjectName("MaingridLayout")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -40,9 +46,12 @@ class Ui_MainWindow(object):
         self.fileCloseAction.setObjectName("fileCloseAction")
         self.addWinAction = QtWidgets.QAction(MainWindow)
         self.addWinAction.setObjectName("addWinAction")
+        self.fileSaveAction = QtWidgets.QAction(MainWindow)
+        self.fileSaveAction.setObjectName("fileSaveAction")
         self.toolBar.addAction(self.addWinAction)
         self.menu_F.addAction(self.fileOpenAction)
         self.menu_F.addAction(self.fileNewAction)
+        self.menu_F.addAction(self.fileSaveAction)
         self.menu_F.addAction(self.fileCloseAction)
         self.menuBar.addAction(self.menu_F.menuAction())
         self.menuBar.addAction(self.menu_E.menuAction())
@@ -67,6 +76,9 @@ class Ui_MainWindow(object):
         self.fileCloseAction.setShortcut(_translate("MainWindow", "Alt+C"))
         self.addWinAction.setText(_translate("MainWindow", "添加窗体"))
         self.addWinAction.setToolTip(_translate("MainWindow", "添加窗体"))
+        self.fileSaveAction.setText(_translate("MainWindow", "保存"))
+        self.fileSaveAction.setToolTip(_translate("MainWindow", "保存"))
+        self.fileSaveAction.setShortcut(_translate("MainWindow", "Ctrl+S"))
 
 
 if __name__ == "__main__":
